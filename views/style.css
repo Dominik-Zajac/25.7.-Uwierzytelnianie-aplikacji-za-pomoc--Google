@@ -1,0 +1,59 @@
+body {
+	background-color: #353b48;
+}
+
+.login-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 35%;
+	min-height: 100px;
+
+	margin: 0 auto;
+	padding: 10px;
+	
+	border: 1px dashed orange;
+	text-align: center;
+}
+
+p {
+	color: orange;
+}
+
+a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 80px;
+	height: 30px;
+	
+	padding: 10px;
+	
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 5px;
+	border: 2px solid orange;
+	color: orange;
+}
+a:hover {
+	color: gold;
+	border-color: gold;
+}
+
+.welcome-page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	max-width: 50%;
+
+	margin: 0 auto;
+
+	border: 1px dashed orange;
+	border-radius: 5px;
+}
+
+h1 {
+	color: orange;
+}
